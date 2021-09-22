@@ -507,7 +507,15 @@ input {
 */
 
 .c-label {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 8px;
+    color: #606274;
+}
 
+.c-label--option {
+    margin-bottom: 0px;
+    margin-left: 8px;
 }
 
 /* If a input is focused within the form-field class change te color of the label */
@@ -540,6 +548,7 @@ input {
 .c-button:focus {
     border-color: #3385FF;
     box-shadow: 0 0 0 3px #3385ff4d;
+    outline: none;
 }
 
 .c-button:active {
@@ -579,6 +588,49 @@ input {
 .c-logo__path--3 {
     fill: #1B4186;
 }
+
+/*
+    Component: Card
+    ---
+    Class to put on form Card
+*/
+.c-card {
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px #00000024;
+}
+
+.c-card__body {
+    padding: 48px;
+}
+
+.c-card__title {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    padding-top: 48px;
+    margin-bottom: 0px;
+}
+
+.c-card__footer {
+    padding: 24px;
+    border-top: 1px solid #E2E3E7;
+
+    display: flex;
+    justify-content: center;
+}
+
+/*
+    Component: Label
+    ---
+    Class to put on form Label
+*/
+.c-label {
+
+}
+
 
 /*------------------------------------*\
 #UTILITIES
